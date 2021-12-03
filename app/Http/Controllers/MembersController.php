@@ -14,7 +14,7 @@ class MembersController extends Controller
      */
     public function index()
     {
-        //
+        return view('members/home.blade.php');
     }
 
     /**
